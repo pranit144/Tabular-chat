@@ -17,7 +17,7 @@ import google.generativeai as genai
 nlp = spacy.load("en_core_web_sm")
 
 team_members = []
-genai.configure(api_key="AIzaSyA6axcDK2vv3GLQef2NFG64g_jW8I3m2Ag")
+genai.configure(api_key="")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 app = Flask(__name__)
