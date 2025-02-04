@@ -1,0 +1,501 @@
+Name,Department,Company,Post,Package,Year of Placement,Graduation Year
+Student_1,Mechanical,Microsoft,Consultant,1992552,2020,2022
+Student_2,Computer Science,TCS,Hardware Engineer,430386,2020,2021
+Student_3,Mechanical,Google,Consultant,1243658,2021,2022
+Student_4,Computer Science,IBM,Software Engineer,1837261,2021,2022
+Student_5,Electrical,Google,Consultant,1080449,2018,2019
+Student_6,Electronics,IBM,System Engineer,1441320,2020,2019
+Student_7,Civil,Microsoft,Software Engineer,848142,2018,2020
+Student_8,Electronics,TCS,Hardware Engineer,615449,2019,2022
+Student_9,Civil,Amazon,Hardware Engineer,764023,2022,2023
+Student_10,Civil,Microsoft,Hardware Engineer,794612,2021,2022
+Student_11,Civil,Google,Consultant,396532,2019,2021
+Student_12,Electrical,Infosys,Hardware Engineer,1232683,2020,2020
+Student_13,Electronics,Amazon,Hardware Engineer,822238,2018,2019
+Student_14,Mechanical,TCS,System Engineer,1283561,2019,2023
+Student_15,Civil,Deloitte,Data Analyst,1858483,2018,2022
+Student_16,Computer Science,Infosys,Hardware Engineer,1828577,2019,2019
+Student_17,Electrical,Microsoft,Consultant,1646150,2020,2019
+Student_18,Electronics,TCS,System Engineer,318660,2020,2022
+Student_19,Mechanical,Google,System Engineer,355245,2019,2020
+Student_20,Electronics,Deloitte,Software Engineer,1093839,2018,2022
+Student_21,Computer Science,Deloitte,Data Analyst,1317732,2022,2021
+Student_22,Computer Science,TCS,Consultant,1589358,2020,2020
+Student_23,Mechanical,Infosys,Consultant,1880237,2019,2021
+Student_24,Electrical,Microsoft,Software Engineer,987382,2019,2023
+Student_25,Civil,TCS,Software Engineer,1954359,2018,2023
+Student_26,Electrical,IBM,Software Engineer,328508,2021,2020
+Student_27,Electronics,TCS,Consultant,687474,2022,2023
+Student_28,Electrical,Google,Hardware Engineer,1570536,2021,2020
+Student_29,Civil,Amazon,Data Analyst,1091109,2022,2019
+Student_30,Civil,Deloitte,Consultant,1158479,2021,2019
+Student_31,Electronics,IBM,System Engineer,1028720,2019,2019
+Student_32,Civil,Amazon,Consultant,1291333,2019,2019
+Student_33,Electronics,Deloitte,Data Analyst,709165,2018,2022
+Student_34,Civil,Microsoft,Software Engineer,1186752,2020,2021
+Student_35,Computer Science,Microsoft,System Engineer,1272491,2018,2020
+Student_36,Electrical,Microsoft,System Engineer,1839446,2018,2023
+Student_37,Mechanical,Google,System Engineer,1061145,2020,2020
+Student_38,Electronics,Microsoft,Hardware Engineer,1374401,2021,2023
+Student_39,Electrical,TCS,Consultant,419287,2021,2020
+Student_40,Mechanical,Microsoft,System Engineer,342161,2022,2020
+Student_41,Electrical,IBM,Software Engineer,810512,2019,2019
+Student_42,Electrical,Deloitte,Data Analyst,1303923,2019,2023
+Student_43,Civil,Google,Data Analyst,1437801,2020,2020
+Student_44,Electrical,Google,System Engineer,1982316,2022,2020
+Student_45,Civil,TCS,Data Analyst,1798996,2018,2021
+Student_46,Electrical,Microsoft,Data Analyst,349451,2020,2019
+Student_47,Mechanical,Microsoft,System Engineer,507777,2018,2021
+Student_48,Mechanical,IBM,System Engineer,1341138,2021,2021
+Student_49,Civil,Amazon,Consultant,1412422,2021,2022
+Student_50,Computer Science,Microsoft,Hardware Engineer,849290,2019,2020
+Student_51,Civil,Deloitte,Software Engineer,636937,2020,2021
+Student_52,Computer Science,Deloitte,Software Engineer,667105,2022,2023
+Student_53,Mechanical,TCS,Data Analyst,1252021,2019,2021
+Student_54,Electrical,IBM,Software Engineer,519382,2018,2023
+Student_55,Electrical,Amazon,Data Analyst,1609632,2022,2023
+Student_56,Mechanical,Google,Hardware Engineer,1005666,2021,2023
+Student_57,Civil,TCS,Data Analyst,450588,2022,2023
+Student_58,Mechanical,Deloitte,Consultant,553838,2022,2021
+Student_59,Electronics,IBM,Software Engineer,1015598,2019,2023
+Student_60,Electronics,Microsoft,Consultant,662998,2019,2020
+Student_61,Mechanical,Microsoft,Hardware Engineer,1553381,2020,2019
+Student_62,Mechanical,Infosys,System Engineer,1351325,2020,2023
+Student_63,Computer Science,Deloitte,Software Engineer,1883270,2018,2023
+Student_64,Civil,TCS,System Engineer,780295,2022,2022
+Student_65,Electrical,Amazon,Data Analyst,762153,2019,2019
+Student_66,Civil,TCS,Consultant,1197718,2021,2020
+Student_67,Electronics,Google,System Engineer,336085,2019,2020
+Student_68,Mechanical,Infosys,System Engineer,1334615,2018,2021
+Student_69,Mechanical,TCS,System Engineer,1381847,2018,2022
+Student_70,Civil,Amazon,Consultant,666443,2019,2020
+Student_71,Electrical,Infosys,System Engineer,1063701,2021,2019
+Student_72,Electrical,Deloitte,Hardware Engineer,816485,2019,2019
+Student_73,Electrical,IBM,Hardware Engineer,546880,2022,2020
+Student_74,Electrical,Deloitte,Consultant,662254,2018,2019
+Student_75,Civil,Infosys,Consultant,469456,2019,2019
+Student_76,Electronics,TCS,System Engineer,1049919,2021,2019
+Student_77,Electrical,IBM,System Engineer,1297591,2019,2022
+Student_78,Mechanical,Amazon,System Engineer,1493736,2022,2022
+Student_79,Mechanical,Amazon,Data Analyst,310748,2022,2023
+Student_80,Civil,Google,Consultant,893396,2021,2022
+Student_81,Electronics,TCS,System Engineer,1090465,2019,2023
+Student_82,Electrical,Infosys,Consultant,1275360,2020,2019
+Student_83,Civil,Amazon,Data Analyst,769964,2022,2023
+Student_84,Mechanical,Amazon,Consultant,1022377,2018,2023
+Student_85,Computer Science,Google,System Engineer,855996,2020,2022
+Student_86,Mechanical,Infosys,Consultant,1301619,2021,2023
+Student_87,Mechanical,IBM,Hardware Engineer,508762,2019,2020
+Student_88,Electrical,Google,Software Engineer,1683873,2018,2020
+Student_89,Electronics,Infosys,Software Engineer,900476,2020,2019
+Student_90,Computer Science,Amazon,Consultant,1391054,2019,2020
+Student_91,Electrical,Google,Data Analyst,311272,2022,2022
+Student_92,Electrical,Google,System Engineer,1721913,2021,2021
+Student_93,Mechanical,Google,Software Engineer,753218,2022,2022
+Student_94,Electronics,Microsoft,Software Engineer,666765,2022,2022
+Student_95,Mechanical,Infosys,Consultant,1363794,2019,2021
+Student_96,Electrical,Google,Consultant,1793172,2018,2019
+Student_97,Civil,Amazon,System Engineer,1677465,2019,2019
+Student_98,Electrical,Google,Hardware Engineer,1903792,2021,2021
+Student_99,Computer Science,Deloitte,Data Analyst,1199448,2019,2019
+Student_100,Electrical,IBM,Consultant,866331,2020,2019
+Student_101,Mechanical,Amazon,Software Engineer,1971351,2020,2020
+Student_102,Mechanical,Infosys,System Engineer,879613,2021,2019
+Student_103,Computer Science,Amazon,System Engineer,1722428,2022,2020
+Student_104,Civil,Deloitte,Data Analyst,1248565,2020,2023
+Student_105,Mechanical,Microsoft,Hardware Engineer,1594864,2021,2022
+Student_106,Civil,Microsoft,Data Analyst,741553,2021,2021
+Student_107,Electronics,Microsoft,Consultant,1738723,2021,2020
+Student_108,Civil,TCS,System Engineer,923491,2021,2023
+Student_109,Mechanical,Deloitte,Data Analyst,520541,2021,2021
+Student_110,Electronics,IBM,Data Analyst,1223521,2019,2020
+Student_111,Mechanical,Microsoft,Software Engineer,1989248,2019,2019
+Student_112,Electronics,Amazon,System Engineer,641323,2021,2020
+Student_113,Electrical,IBM,Hardware Engineer,793659,2022,2023
+Student_114,Civil,Infosys,Software Engineer,1171960,2021,2020
+Student_115,Electronics,Microsoft,Software Engineer,1388784,2022,2023
+Student_116,Computer Science,Infosys,Consultant,673919,2018,2023
+Student_117,Electronics,IBM,Hardware Engineer,1386342,2020,2019
+Student_118,Computer Science,Microsoft,System Engineer,1288990,2021,2022
+Student_119,Mechanical,TCS,Consultant,1906912,2019,2023
+Student_120,Mechanical,Infosys,System Engineer,1135605,2019,2020
+Student_121,Mechanical,IBM,Data Analyst,1260565,2020,2019
+Student_122,Electrical,TCS,Hardware Engineer,1565122,2022,2019
+Student_123,Civil,Microsoft,Consultant,1198765,2019,2021
+Student_124,Computer Science,TCS,System Engineer,882359,2018,2021
+Student_125,Civil,Google,Hardware Engineer,670563,2019,2020
+Student_126,Electrical,Amazon,Hardware Engineer,838334,2022,2019
+Student_127,Civil,Microsoft,Consultant,734411,2018,2020
+Student_128,Electronics,IBM,Data Analyst,518617,2019,2019
+Student_129,Electrical,Infosys,Data Analyst,1355588,2018,2023
+Student_130,Electronics,IBM,Consultant,957785,2018,2020
+Student_131,Mechanical,IBM,Hardware Engineer,660924,2022,2021
+Student_132,Electrical,IBM,Software Engineer,1233283,2020,2020
+Student_133,Electronics,TCS,Hardware Engineer,1205464,2019,2019
+Student_134,Electrical,Google,Hardware Engineer,868690,2021,2020
+Student_135,Electrical,Deloitte,Software Engineer,1389294,2020,2020
+Student_136,Civil,Deloitte,Consultant,504771,2020,2022
+Student_137,Electrical,IBM,Software Engineer,379543,2022,2020
+Student_138,Computer Science,Amazon,Data Analyst,1530824,2022,2021
+Student_139,Civil,Amazon,System Engineer,1559358,2020,2022
+Student_140,Computer Science,Google,Software Engineer,1898996,2020,2021
+Student_141,Electronics,Google,Software Engineer,739523,2022,2019
+Student_142,Electrical,Infosys,Hardware Engineer,1157532,2021,2019
+Student_143,Electrical,IBM,Hardware Engineer,1467574,2018,2023
+Student_144,Electrical,Deloitte,System Engineer,725920,2019,2019
+Student_145,Computer Science,Microsoft,Data Analyst,657702,2021,2021
+Student_146,Computer Science,Amazon,Hardware Engineer,911649,2021,2022
+Student_147,Electrical,Microsoft,Software Engineer,751405,2018,2020
+Student_148,Mechanical,TCS,System Engineer,1113556,2019,2019
+Student_149,Computer Science,Deloitte,Hardware Engineer,623909,2018,2019
+Student_150,Electronics,IBM,Consultant,839366,2019,2019
+Student_151,Computer Science,TCS,System Engineer,1879266,2019,2019
+Student_152,Mechanical,Google,Hardware Engineer,528566,2021,2021
+Student_153,Computer Science,Amazon,Hardware Engineer,988369,2019,2020
+Student_154,Electrical,Microsoft,Data Analyst,1494278,2020,2021
+Student_155,Electrical,Deloitte,Hardware Engineer,1675516,2021,2021
+Student_156,Electronics,TCS,Hardware Engineer,1718120,2021,2021
+Student_157,Mechanical,Google,System Engineer,1044907,2020,2021
+Student_158,Civil,IBM,Data Analyst,438346,2018,2021
+Student_159,Mechanical,Deloitte,Hardware Engineer,1746104,2020,2020
+Student_160,Civil,TCS,System Engineer,324875,2018,2020
+Student_161,Electronics,Infosys,Consultant,685200,2018,2023
+Student_162,Civil,TCS,Data Analyst,1820548,2020,2022
+Student_163,Civil,Amazon,Software Engineer,1481811,2020,2021
+Student_164,Computer Science,IBM,System Engineer,700173,2021,2022
+Student_165,Electrical,Google,Data Analyst,1335391,2018,2022
+Student_166,Mechanical,IBM,Hardware Engineer,717031,2019,2022
+Student_167,Computer Science,Deloitte,Consultant,986949,2019,2023
+Student_168,Electronics,Microsoft,Data Analyst,1633231,2022,2023
+Student_169,Electronics,Deloitte,Software Engineer,368821,2021,2020
+Student_170,Electronics,Infosys,Data Analyst,1760449,2022,2021
+Student_171,Electronics,Google,Software Engineer,645493,2022,2022
+Student_172,Civil,TCS,Hardware Engineer,1139106,2021,2022
+Student_173,Electrical,TCS,System Engineer,1472161,2018,2022
+Student_174,Mechanical,Google,System Engineer,1175466,2021,2019
+Student_175,Computer Science,Deloitte,Data Analyst,1503074,2021,2020
+Student_176,Computer Science,IBM,Hardware Engineer,1776692,2020,2023
+Student_177,Electrical,Amazon,Data Analyst,1861274,2019,2023
+Student_178,Electrical,Amazon,Consultant,914978,2020,2021
+Student_179,Electrical,Amazon,System Engineer,442728,2018,2022
+Student_180,Computer Science,Microsoft,Consultant,1129202,2022,2022
+Student_181,Electrical,Amazon,Software Engineer,1818430,2019,2023
+Student_182,Electronics,Infosys,Consultant,369489,2020,2019
+Student_183,Mechanical,Microsoft,Hardware Engineer,989609,2018,2023
+Student_184,Electrical,Microsoft,Data Analyst,667993,2021,2020
+Student_185,Mechanical,Google,Software Engineer,1545994,2022,2022
+Student_186,Mechanical,Amazon,Hardware Engineer,1823895,2018,2020
+Student_187,Mechanical,IBM,Software Engineer,820461,2018,2022
+Student_188,Civil,Amazon,Data Analyst,1105227,2019,2023
+Student_189,Electronics,Infosys,Hardware Engineer,1007521,2022,2020
+Student_190,Electrical,Microsoft,Consultant,1043476,2021,2023
+Student_191,Electronics,Infosys,Consultant,1590772,2018,2023
+Student_192,Electronics,Amazon,Consultant,695207,2021,2021
+Student_193,Mechanical,Microsoft,Software Engineer,1431744,2019,2019
+Student_194,Computer Science,Amazon,Software Engineer,1065913,2019,2023
+Student_195,Civil,Google,Software Engineer,1144207,2020,2021
+Student_196,Civil,Microsoft,Consultant,455991,2022,2019
+Student_197,Mechanical,Microsoft,Hardware Engineer,868424,2019,2023
+Student_198,Computer Science,Microsoft,Data Analyst,463778,2018,2021
+Student_199,Electronics,Deloitte,Consultant,1486966,2018,2020
+Student_200,Computer Science,Deloitte,Software Engineer,1455180,2018,2023
+Student_201,Electronics,Deloitte,Data Analyst,1687829,2022,2022
+Student_202,Electronics,TCS,Software Engineer,1150667,2022,2019
+Student_203,Civil,Microsoft,Consultant,566842,2022,2020
+Student_204,Mechanical,TCS,Consultant,1374446,2022,2022
+Student_205,Civil,Deloitte,Data Analyst,1450460,2018,2019
+Student_206,Mechanical,Google,Data Analyst,526111,2020,2023
+Student_207,Electronics,TCS,System Engineer,590907,2020,2021
+Student_208,Civil,Amazon,System Engineer,1438801,2021,2021
+Student_209,Electronics,Infosys,System Engineer,1132429,2020,2022
+Student_210,Mechanical,Amazon,System Engineer,733964,2021,2021
+Student_211,Computer Science,TCS,Hardware Engineer,853370,2022,2023
+Student_212,Mechanical,Deloitte,System Engineer,1214232,2021,2021
+Student_213,Civil,Amazon,System Engineer,1196649,2020,2023
+Student_214,Civil,IBM,System Engineer,914732,2019,2023
+Student_215,Civil,TCS,System Engineer,1048166,2018,2019
+Student_216,Computer Science,Google,Data Analyst,1567969,2021,2023
+Student_217,Mechanical,IBM,Hardware Engineer,1230831,2018,2020
+Student_218,Electronics,TCS,System Engineer,840740,2021,2023
+Student_219,Electrical,Amazon,Data Analyst,1317819,2021,2020
+Student_220,Electronics,Deloitte,Software Engineer,1380864,2019,2020
+Student_221,Civil,TCS,Consultant,869195,2018,2022
+Student_222,Electronics,TCS,System Engineer,1799144,2022,2021
+Student_223,Computer Science,IBM,System Engineer,1596411,2020,2021
+Student_224,Civil,Amazon,Data Analyst,712212,2022,2022
+Student_225,Electronics,Microsoft,Software Engineer,1936595,2018,2019
+Student_226,Electrical,TCS,Software Engineer,741782,2021,2022
+Student_227,Civil,Deloitte,Data Analyst,1378173,2022,2019
+Student_228,Mechanical,Microsoft,Data Analyst,740215,2019,2020
+Student_229,Electronics,Google,System Engineer,1477223,2018,2021
+Student_230,Electronics,Infosys,Software Engineer,1734559,2020,2020
+Student_231,Mechanical,Infosys,Hardware Engineer,370011,2022,2023
+Student_232,Mechanical,Amazon,Data Analyst,1706770,2021,2022
+Student_233,Mechanical,IBM,System Engineer,1322010,2019,2023
+Student_234,Computer Science,TCS,Data Analyst,1595370,2018,2020
+Student_235,Computer Science,Amazon,Data Analyst,1835636,2022,2022
+Student_236,Mechanical,Deloitte,Consultant,554562,2022,2021
+Student_237,Computer Science,TCS,Software Engineer,1025618,2020,2020
+Student_238,Electronics,Infosys,Data Analyst,1683326,2022,2020
+Student_239,Computer Science,Amazon,Software Engineer,988215,2019,2023
+Student_240,Civil,Deloitte,System Engineer,488484,2019,2022
+Student_241,Civil,Deloitte,System Engineer,1786035,2022,2022
+Student_242,Mechanical,Amazon,Data Analyst,834263,2022,2023
+Student_243,Computer Science,TCS,Data Analyst,636561,2022,2020
+Student_244,Computer Science,Amazon,Software Engineer,418892,2018,2020
+Student_245,Electrical,IBM,Data Analyst,857655,2020,2020
+Student_246,Mechanical,Deloitte,Consultant,1394736,2018,2020
+Student_247,Electronics,Deloitte,Consultant,996764,2021,2023
+Student_248,Mechanical,IBM,System Engineer,1740212,2022,2019
+Student_249,Civil,TCS,Hardware Engineer,1487886,2022,2021
+Student_250,Mechanical,IBM,Data Analyst,730143,2022,2022
+Student_251,Mechanical,Deloitte,Data Analyst,957883,2018,2022
+Student_252,Electronics,TCS,Software Engineer,1337800,2021,2019
+Student_253,Computer Science,TCS,Software Engineer,1776525,2021,2023
+Student_254,Computer Science,Infosys,Software Engineer,719342,2020,2020
+Student_255,Computer Science,Infosys,Data Analyst,1896920,2021,2020
+Student_256,Mechanical,Google,Software Engineer,957186,2022,2020
+Student_257,Electrical,IBM,Software Engineer,576510,2022,2019
+Student_258,Electrical,Deloitte,System Engineer,1563506,2018,2020
+Student_259,Electrical,Amazon,Consultant,1384618,2020,2022
+Student_260,Electrical,Deloitte,Hardware Engineer,1585556,2021,2021
+Student_261,Electronics,Google,Data Analyst,882282,2020,2023
+Student_262,Computer Science,Infosys,System Engineer,1489563,2021,2021
+Student_263,Civil,IBM,Software Engineer,992676,2019,2021
+Student_264,Mechanical,TCS,System Engineer,970439,2021,2021
+Student_265,Civil,IBM,System Engineer,920252,2020,2023
+Student_266,Electronics,Deloitte,Consultant,1392443,2021,2023
+Student_267,Electrical,Google,Hardware Engineer,969950,2019,2019
+Student_268,Civil,TCS,Consultant,1482401,2022,2020
+Student_269,Mechanical,IBM,Software Engineer,727427,2019,2022
+Student_270,Electronics,IBM,System Engineer,999937,2018,2019
+Student_271,Electronics,IBM,Data Analyst,1847420,2020,2020
+Student_272,Electronics,Deloitte,Hardware Engineer,868486,2022,2019
+Student_273,Computer Science,Google,Hardware Engineer,445322,2020,2019
+Student_274,Electrical,Deloitte,Software Engineer,1072107,2020,2023
+Student_275,Electrical,TCS,Data Analyst,1775184,2021,2022
+Student_276,Computer Science,Infosys,Consultant,822421,2018,2022
+Student_277,Electronics,Google,Data Analyst,1112285,2019,2019
+Student_278,Civil,Deloitte,Software Engineer,1129350,2021,2021
+Student_279,Computer Science,Infosys,Hardware Engineer,796580,2018,2022
+Student_280,Electronics,Amazon,Hardware Engineer,1284124,2019,2023
+Student_281,Electronics,Amazon,Data Analyst,884800,2022,2022
+Student_282,Electronics,Amazon,Software Engineer,1256440,2021,2021
+Student_283,Computer Science,Infosys,Consultant,1047906,2022,2023
+Student_284,Mechanical,Amazon,Software Engineer,1158999,2021,2020
+Student_285,Electronics,Amazon,Hardware Engineer,967401,2021,2023
+Student_286,Electrical,Deloitte,System Engineer,1019851,2020,2022
+Student_287,Mechanical,Deloitte,Consultant,1593910,2022,2021
+Student_288,Electronics,Amazon,Software Engineer,646169,2019,2021
+Student_289,Computer Science,IBM,System Engineer,1371382,2019,2021
+Student_290,Electrical,Deloitte,Hardware Engineer,470657,2020,2019
+Student_291,Civil,Amazon,Data Analyst,1657419,2021,2020
+Student_292,Computer Science,Deloitte,Data Analyst,1078434,2020,2019
+Student_293,Computer Science,Infosys,Hardware Engineer,1789097,2018,2019
+Student_294,Mechanical,Microsoft,Hardware Engineer,1850480,2020,2020
+Student_295,Electronics,IBM,Data Analyst,1275956,2019,2022
+Student_296,Computer Science,Microsoft,Consultant,980492,2019,2019
+Student_297,Civil,Deloitte,System Engineer,687401,2020,2019
+Student_298,Electronics,Google,Data Analyst,921470,2021,2022
+Student_299,Computer Science,Amazon,Software Engineer,1665034,2019,2020
+Student_300,Mechanical,Microsoft,Data Analyst,1774548,2019,2020
+Student_301,Mechanical,Microsoft,Hardware Engineer,1875480,2020,2021
+Student_302,Civil,Microsoft,Hardware Engineer,1446626,2021,2023
+Student_303,Electronics,IBM,System Engineer,1704312,2020,2023
+Student_304,Electrical,Deloitte,Software Engineer,1753017,2022,2020
+Student_305,Computer Science,Google,Software Engineer,1075768,2019,2023
+Student_306,Electrical,IBM,Consultant,1718551,2021,2020
+Student_307,Computer Science,Amazon,Consultant,1768770,2020,2020
+Student_308,Electrical,Deloitte,Hardware Engineer,484546,2018,2019
+Student_309,Computer Science,Microsoft,Hardware Engineer,1730572,2022,2022
+Student_310,Mechanical,Microsoft,System Engineer,1156852,2020,2021
+Student_311,Electronics,Infosys,Data Analyst,816879,2021,2020
+Student_312,Computer Science,Amazon,Hardware Engineer,971201,2018,2019
+Student_313,Civil,Google,Software Engineer,1159378,2022,2023
+Student_314,Computer Science,Deloitte,Software Engineer,1271985,2020,2019
+Student_315,Electronics,Amazon,System Engineer,431159,2020,2023
+Student_316,Mechanical,Amazon,System Engineer,828764,2020,2022
+Student_317,Computer Science,Infosys,Consultant,1211396,2018,2019
+Student_318,Civil,IBM,Data Analyst,943856,2020,2020
+Student_319,Computer Science,Microsoft,Data Analyst,457793,2019,2019
+Student_320,Mechanical,Amazon,Consultant,1608252,2019,2023
+Student_321,Mechanical,IBM,Software Engineer,1840694,2019,2020
+Student_322,Electronics,TCS,System Engineer,460154,2021,2020
+Student_323,Mechanical,IBM,System Engineer,1802839,2019,2019
+Student_324,Electrical,Infosys,Data Analyst,536983,2020,2023
+Student_325,Mechanical,Google,Hardware Engineer,1397808,2021,2020
+Student_326,Electronics,IBM,System Engineer,1429829,2018,2023
+Student_327,Electronics,Amazon,System Engineer,623307,2020,2023
+Student_328,Electrical,IBM,Software Engineer,1974175,2019,2022
+Student_329,Electrical,Microsoft,Data Analyst,1930621,2020,2021
+Student_330,Computer Science,Microsoft,Software Engineer,864025,2021,2023
+Student_331,Electrical,Microsoft,Consultant,1666699,2018,2022
+Student_332,Computer Science,Microsoft,Data Analyst,878250,2020,2019
+Student_333,Computer Science,Google,Data Analyst,995933,2020,2023
+Student_334,Mechanical,IBM,System Engineer,727781,2019,2021
+Student_335,Electrical,Microsoft,Software Engineer,514650,2019,2020
+Student_336,Mechanical,Amazon,System Engineer,794445,2020,2019
+Student_337,Electrical,TCS,System Engineer,1251035,2018,2021
+Student_338,Computer Science,Infosys,Consultant,1256059,2022,2020
+Student_339,Mechanical,Microsoft,Hardware Engineer,1908028,2021,2021
+Student_340,Electronics,TCS,Software Engineer,1802575,2021,2023
+Student_341,Electrical,IBM,Hardware Engineer,1306016,2020,2022
+Student_342,Electrical,Google,System Engineer,1461637,2020,2021
+Student_343,Civil,Microsoft,Software Engineer,532082,2019,2019
+Student_344,Civil,Deloitte,Software Engineer,1354953,2022,2021
+Student_345,Civil,Deloitte,Software Engineer,1147267,2020,2019
+Student_346,Electrical,TCS,Data Analyst,625297,2020,2020
+Student_347,Mechanical,Deloitte,Hardware Engineer,1193100,2019,2019
+Student_348,Electrical,Microsoft,Consultant,1695695,2018,2023
+Student_349,Civil,Microsoft,System Engineer,622927,2022,2020
+Student_350,Mechanical,Deloitte,Consultant,366813,2019,2023
+Student_351,Electronics,Google,Software Engineer,1778254,2019,2021
+Student_352,Mechanical,Amazon,System Engineer,407528,2021,2023
+Student_353,Electrical,IBM,Software Engineer,1236664,2019,2022
+Student_354,Electronics,Amazon,Software Engineer,1196052,2021,2020
+Student_355,Mechanical,TCS,Data Analyst,847440,2020,2019
+Student_356,Civil,IBM,Data Analyst,696958,2019,2023
+Student_357,Computer Science,IBM,System Engineer,1728996,2020,2022
+Student_358,Mechanical,Amazon,Hardware Engineer,591763,2022,2023
+Student_359,Electrical,Deloitte,System Engineer,989624,2018,2022
+Student_360,Civil,Amazon,Software Engineer,1396087,2022,2019
+Student_361,Computer Science,Amazon,Hardware Engineer,781251,2022,2023
+Student_362,Civil,TCS,Hardware Engineer,1458507,2018,2021
+Student_363,Electrical,Infosys,Consultant,1067788,2022,2023
+Student_364,Mechanical,Infosys,System Engineer,679425,2019,2020
+Student_365,Mechanical,Infosys,Consultant,1271294,2020,2019
+Student_366,Electronics,Amazon,Software Engineer,371609,2019,2019
+Student_367,Mechanical,Infosys,Software Engineer,891797,2018,2021
+Student_368,Electronics,IBM,Data Analyst,1220521,2020,2022
+Student_369,Electrical,Google,Hardware Engineer,466660,2021,2021
+Student_370,Civil,Infosys,Data Analyst,408594,2022,2021
+Student_371,Computer Science,Infosys,Hardware Engineer,931471,2020,2023
+Student_372,Electrical,IBM,Hardware Engineer,1079684,2018,2020
+Student_373,Civil,Microsoft,System Engineer,1225006,2020,2019
+Student_374,Civil,Amazon,System Engineer,1197197,2021,2023
+Student_375,Civil,Deloitte,Software Engineer,1900633,2020,2020
+Student_376,Civil,Amazon,Consultant,1269197,2018,2021
+Student_377,Mechanical,Google,Consultant,757870,2022,2021
+Student_378,Computer Science,Microsoft,Consultant,1421653,2022,2019
+Student_379,Electrical,TCS,Data Analyst,953144,2020,2023
+Student_380,Electrical,Infosys,Data Analyst,1553774,2021,2022
+Student_381,Electronics,Amazon,System Engineer,1257889,2020,2019
+Student_382,Electronics,Infosys,System Engineer,787012,2020,2022
+Student_383,Electronics,Infosys,Data Analyst,988128,2021,2021
+Student_384,Mechanical,Infosys,Hardware Engineer,617993,2022,2021
+Student_385,Mechanical,IBM,Hardware Engineer,916454,2022,2021
+Student_386,Electrical,IBM,Data Analyst,425036,2020,2019
+Student_387,Electronics,TCS,Software Engineer,1510051,2021,2022
+Student_388,Electronics,IBM,System Engineer,370108,2020,2020
+Student_389,Electronics,Infosys,Hardware Engineer,939667,2022,2019
+Student_390,Civil,Google,Data Analyst,1652524,2020,2022
+Student_391,Computer Science,Microsoft,Consultant,742507,2018,2022
+Student_392,Mechanical,Deloitte,Hardware Engineer,665848,2022,2022
+Student_393,Electronics,Google,Hardware Engineer,469681,2022,2019
+Student_394,Civil,Google,Software Engineer,1230656,2018,2019
+Student_395,Mechanical,Microsoft,Software Engineer,1993069,2020,2020
+Student_396,Mechanical,Microsoft,Software Engineer,1089940,2018,2022
+Student_397,Computer Science,TCS,Data Analyst,1581203,2020,2019
+Student_398,Mechanical,Deloitte,Software Engineer,1237529,2019,2023
+Student_399,Civil,Microsoft,Consultant,1729149,2019,2023
+Student_400,Computer Science,Google,Data Analyst,1268949,2022,2022
+Student_401,Civil,IBM,Data Analyst,489928,2021,2019
+Student_402,Civil,Infosys,Data Analyst,1307485,2021,2020
+Student_403,Civil,Infosys,Consultant,1223520,2021,2020
+Student_404,Civil,IBM,Consultant,1382561,2021,2023
+Student_405,Civil,Infosys,Software Engineer,1062155,2018,2020
+Student_406,Computer Science,Infosys,Hardware Engineer,868080,2021,2020
+Student_407,Mechanical,Microsoft,System Engineer,1443605,2018,2021
+Student_408,Civil,Amazon,Consultant,555087,2020,2021
+Student_409,Electrical,Deloitte,System Engineer,951823,2022,2019
+Student_410,Computer Science,TCS,System Engineer,1076350,2018,2023
+Student_411,Electronics,Google,Consultant,352148,2021,2022
+Student_412,Computer Science,IBM,Data Analyst,1766705,2022,2021
+Student_413,Civil,TCS,System Engineer,409192,2022,2023
+Student_414,Electrical,Google,System Engineer,1079372,2021,2020
+Student_415,Electronics,Infosys,Software Engineer,1417549,2018,2021
+Student_416,Civil,TCS,Consultant,573205,2022,2022
+Student_417,Electronics,Deloitte,System Engineer,1277468,2021,2023
+Student_418,Electronics,Infosys,System Engineer,835846,2019,2023
+Student_419,Electrical,Microsoft,Data Analyst,701906,2019,2023
+Student_420,Mechanical,Microsoft,Software Engineer,507230,2021,2023
+Student_421,Electrical,TCS,System Engineer,419630,2022,2022
+Student_422,Electrical,Amazon,Consultant,1771094,2020,2020
+Student_423,Mechanical,Infosys,Data Analyst,984653,2019,2021
+Student_424,Civil,Infosys,System Engineer,1044254,2020,2021
+Student_425,Civil,TCS,Software Engineer,1997314,2020,2020
+Student_426,Electrical,Infosys,Consultant,362956,2020,2019
+Student_427,Computer Science,TCS,Software Engineer,864098,2020,2021
+Student_428,Electronics,Google,Hardware Engineer,1507228,2018,2022
+Student_429,Civil,Google,Data Analyst,1991719,2022,2022
+Student_430,Electrical,Google,Consultant,1460534,2020,2021
+Student_431,Mechanical,Infosys,Data Analyst,611952,2022,2021
+Student_432,Electrical,Deloitte,System Engineer,1385327,2022,2019
+Student_433,Computer Science,Deloitte,Hardware Engineer,588192,2018,2022
+Student_434,Mechanical,TCS,Consultant,630724,2018,2021
+Student_435,Civil,Deloitte,Data Analyst,1958591,2020,2023
+Student_436,Mechanical,Microsoft,System Engineer,1210201,2021,2023
+Student_437,Civil,Deloitte,System Engineer,1455653,2021,2020
+Student_438,Computer Science,Infosys,Consultant,745771,2020,2019
+Student_439,Civil,IBM,Consultant,423382,2022,2022
+Student_440,Electronics,Microsoft,Consultant,349920,2018,2021
+Student_441,Computer Science,IBM,Software Engineer,1754762,2019,2022
+Student_442,Civil,Google,Software Engineer,644552,2021,2022
+Student_443,Electrical,IBM,Hardware Engineer,318981,2018,2020
+Student_444,Computer Science,Amazon,Hardware Engineer,1830355,2021,2021
+Student_445,Electrical,Amazon,Software Engineer,1149022,2020,2023
+Student_446,Mechanical,Infosys,Software Engineer,418546,2018,2020
+Student_447,Mechanical,Amazon,System Engineer,435183,2021,2022
+Student_448,Computer Science,Microsoft,Hardware Engineer,834520,2018,2021
+Student_449,Civil,Microsoft,Hardware Engineer,1886777,2020,2021
+Student_450,Electronics,Deloitte,Data Analyst,304231,2020,2019
+Student_451,Computer Science,TCS,Software Engineer,1062993,2022,2021
+Student_452,Electrical,Google,Software Engineer,1204821,2020,2021
+Student_453,Mechanical,IBM,Consultant,413242,2018,2021
+Student_454,Mechanical,Deloitte,Consultant,1252238,2020,2020
+Student_455,Mechanical,Microsoft,Hardware Engineer,1853734,2019,2021
+Student_456,Electronics,Amazon,Software Engineer,806656,2020,2020
+Student_457,Computer Science,Deloitte,Software Engineer,1862080,2020,2022
+Student_458,Civil,Amazon,Software Engineer,650106,2022,2021
+Student_459,Mechanical,TCS,System Engineer,433414,2021,2020
+Student_460,Computer Science,Microsoft,Data Analyst,729843,2019,2019
+Student_461,Electronics,IBM,Consultant,1986795,2021,2020
+Student_462,Civil,Deloitte,Consultant,576411,2022,2019
+Student_463,Electrical,TCS,Software Engineer,1402765,2021,2022
+Student_464,Civil,TCS,Data Analyst,1616130,2019,2021
+Student_465,Electrical,Microsoft,Hardware Engineer,1811872,2022,2020
+Student_466,Electronics,Amazon,Software Engineer,627105,2020,2021
+Student_467,Mechanical,Microsoft,Consultant,726508,2021,2020
+Student_468,Civil,Microsoft,Consultant,1915827,2021,2019
+Student_469,Electronics,Deloitte,Hardware Engineer,1133127,2019,2019
+Student_470,Computer Science,Google,System Engineer,1149075,2021,2023
+Student_471,Civil,Google,Consultant,308456,2021,2019
+Student_472,Computer Science,IBM,Software Engineer,579834,2022,2019
+Student_473,Electrical,Deloitte,Consultant,1228271,2018,2020
+Student_474,Civil,IBM,System Engineer,1624150,2020,2021
+Student_475,Electrical,Google,Hardware Engineer,900064,2020,2019
+Student_476,Civil,Amazon,Data Analyst,1058913,2021,2023
+Student_477,Electronics,Microsoft,Hardware Engineer,1068213,2019,2020
+Student_478,Electrical,TCS,Data Analyst,332996,2022,2021
+Student_479,Civil,TCS,Consultant,1752107,2022,2020
+Student_480,Civil,Google,System Engineer,1940151,2018,2021
+Student_481,Electrical,Amazon,Data Analyst,1290163,2020,2022
+Student_482,Electronics,Google,System Engineer,1049048,2022,2019
+Student_483,Electronics,Amazon,Hardware Engineer,352779,2018,2023
+Student_484,Computer Science,Deloitte,Software Engineer,1316994,2022,2022
+Student_485,Computer Science,Amazon,Consultant,931214,2021,2019
+Student_486,Electronics,IBM,Hardware Engineer,1904502,2021,2021
+Student_487,Electrical,Infosys,Consultant,1880060,2018,2021
+Student_488,Electrical,Microsoft,Consultant,1597347,2021,2020
+Student_489,Civil,Google,Software Engineer,474117,2018,2022
+Student_490,Computer Science,TCS,Software Engineer,1979771,2018,2023
+Student_491,Computer Science,Microsoft,Data Analyst,1858535,2021,2021
+Student_492,Computer Science,Infosys,Consultant,451733,2020,2022
+Student_493,Electrical,Microsoft,System Engineer,1283890,2018,2022
+Student_494,Electrical,IBM,Consultant,504479,2019,2022
+Student_495,Computer Science,Infosys,System Engineer,1070316,2022,2019
+Student_496,Mechanical,Deloitte,Consultant,1564048,2022,2022
+Student_497,Civil,Deloitte,Consultant,1877954,2020,2022
+Student_498,Computer Science,TCS,Consultant,1614269,2019,2021
+Student_499,Electrical,Infosys,Software Engineer,448830,2018,2021
+Student_500,Electrical,TCS,Hardware Engineer,1031749,2018,2023

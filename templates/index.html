@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Platform</title>
+    /* Add Font Awesome CDN in the head section */
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        /* Modern Color Palette */
+:root {
+    --gradient-primary: linear-gradient(135deg, #2563eb, #3b82f6);
+    --gradient-secondary: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    --primary: #2563eb;
+    --secondary: #3b82f6;
+    --accent: #06b6d4;
+    --background: #f8fafc;
+    --text-primary: #1e293b;
+    --text-secondary: #475569;
+    --success: #10b981;
+    --warning: #f59e0b;
+    --error: #ef4444;
+    --white: #ffffff;
+    --border-light: rgba(37, 99, 235, 0.1);
+    --box-shadow-primary: rgba(37, 99, 235, 0.2);
+    --box-shadow-hover: rgba(37, 99, 235, 0.3);
+}
+
+
+/* Base Styles & Typography */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: var(--background);
+    color: var(--text-primary);
+    line-height: 1.7;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+    background: var(--gradient-primary);
+    padding: 3rem 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 20px var(--box-shadow-primary);
+}
+
+header h1 {
+    color: var(--white);
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeInDown 0.8s ease-out;
+}
+
+/* Section Styles */
+/* Add border to all section elements */
+section {
+    border: 5px solid  #2563eb; /* Subtle border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 2.5rem; /* Internal spacing */
+    margin: 2rem auto; /* External spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    background: var(--white); /* Ensure consistent background */
+}
+
+/* Hover effect for section elements */
+section:hover {
+    border: 5px solid  #000000;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1); /* Slightly elevated shadow */
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+
+/* Headings */
+h2 {
+    color: var(--primary);
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    color: var(--secondary);
+    font-size: 1.8rem;
+    margin: 2rem 0 1.5rem;
+    font-weight: 600;
+}
+
+/* Form Styles */
+form {
+    display: grid;
+    gap: 1.5rem;
+    background: var(--gradient-secondary);
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid var(--border-light);
+}
+
+label {
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border: 2px solid var(--border-light);
+    border-radius: 12px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    background: var(--white);
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+}
+
+/* Button Styles */
+button {
+    background: var(--gradient-primary);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px var(--box-shadow-primary);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px var(--box-shadow-hover);
+}
+
+button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 8px var(--box-shadow-primary);
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 2rem;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px var(--box-shadow-primary);
+}
+
+th {
+    background: var(--gradient-primary);
+    color: var(--white);
+    padding: 1.25rem 1rem;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+td {
+    padding: 1.25rem 1rem;
+    border-bottom: 1px solid var(--border-light);
+    font-size: 1.1rem;
+    background: var(--white);
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover td {
+    background: var(--gradient-secondary);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 3rem;
+    background: var(--gradient-primary);
+    color: var(--white);
+    margin-top: 4rem;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    section {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background: white;
+    }
+
+    section {
+        box-shadow: none;
+        margin: 1rem 0;
+        page-break-inside: avoid;
+    }
+
+    button {
+        display: none;
+    }
+}
+
+/* Questionnaire Styles */
+.questionnaire-form {
+    display: grid;
+    gap: 2rem;
+}
+
+.question-group {
+    background: var(--gradient-secondary);
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid var(--border-light);
+}
+
+.radio-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.radio-group input[type="radio"] {
+    width: auto;
+}
+
+.radio-group label {
+    margin: 0;
+}
+
+.results {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: var(--gradient-secondary);
+    border-radius: 15px;
+    border: 1px solid var(--border-light);
+}
+
+select {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border: 2px solid var(--border-light);
+    border-radius: 12px;
+    font-size: 1.1rem;
+    background: var(--white);
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1.5em;
+}
+
+select:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+}
+
+.question-group {
+    display: grid;
+    gap: 1.5rem;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 1rem 1.5rem;
+}
+
+/* SWOT Analysis Styles */
+.swot-section {
+    background: var(--white);
+    padding: 3rem;
+}
+
+.swot-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.swot-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.swot-card {
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.swot-card:hover {
+    transform: translateY(-5px);
+}
+
+.swot-card h3 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--white);
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.swot-card h3 i {
+    font-size: 1.5rem;
+}
+
+/* SWOT Card Colors */
+.strengths {
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+}
+
+.weaknesses {
+    background: linear-gradient(135deg, #EF4444 0%, #DC2626 100%);
+}
+
+.opportunities {
+    background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
+}
+
+.threats {
+    background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+}
+
+.swot-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.swot-item {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.swot-item:hover {
+    transform: translateX(5px);
+}
+
+.swot-item i {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+.swot-item h4 {
+    color: var(--text-primary);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.swot-item p {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .swot-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .swot-section {
+        padding: 1.5rem;
+    }
+}
+
+.no-data {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+    padding: 2rem;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Analysis Platform</h1>
+    </header>
+    <main>
+        <!-- Training and Placement Team Section -->
+        <section>
+            <h2>Training and Placement Team</h2>
+            <form method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter name" required>
+
+                <label for="post">Post:</label>
+                <input type="text" id="post" name="post" placeholder="Enter post" required>
+
+                <label for="education">Education Details:</label>
+                <textarea id="education" name="education" rows="3" placeholder="Enter education details"></textarea>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+
+                <button type="submit">Add Member</button>
+            </form>
+            <h3>Team Members</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Post</th>
+                        <th>Education</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for member in team_members %}
+                    <tr>
+                        <td>{{ member.name }}</td>
+                        <td>{{ member.post }}</td>
+                        <td>{{ member.education }}</td>
+                        <td>{{ member.email }}</td>
+                        <td>{{ member.phone }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Extract Information from Website Section -->
+        <section>
+            <h2>Extract Information from Website</h2>
+            <form method="POST">
+                <label for="college_name">College Name:</label>
+                <input type="text" id="college_name" name="college_name" placeholder="Enter college name">
+                <label for="website_link">Website URL:</label>
+                <input type="url" id="website_link" name="website_link" placeholder="Enter website URL" required>
+                <button type="submit" name="extract_text">Extract</button>
+            </form>
+            {% if placements %}
+            <h3>Extracted Information</h3>
+            <ul>
+                {% for placement in placements %}
+                <li>
+                    <strong>{{ placement.college_name }}</strong>:
+                    <a href="{{ placement.website_link }}" target="_blank">{{ placement.website_link }}</a>
+                    <div>{{ placement.text | safe }}</div>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </section>
+
+        <!-- Upload Placement Data Section -->
+        <section>
+            <h2>Upload Placement Data</h2>
+            <form method="POST" enctype="multipart/form-data">
+                <label for="file">Upload CSV File:</label>
+                <input type="file" id="file" name="file" required>
+                <button type="submit" name="upload_csv">Upload & Analyze</button>
+            </form>
+        </section>
+        {% if graphs_and_insights %}
+        <section>
+            <h2>Graphs & Insights</h2>
+            {% for item in graphs_and_insights %}
+            <div class="graph">
+                <h3>Graph</h3>
+                {{ item.graph | safe }}
+            </div>
+            <div class="insight">
+                <h3>Insight</h3>
+                {{ item.insight | safe }}
+            </div>
+            {% endfor %}
+        </section>
+        {% endif %}
+        <!-- Analyze MoUs Section -->
+<section>
+    <h2>Analyze MoUs</h2>
+    <form method="POST" action="/analyze_mou" enctype="multipart/form-data">
+        <label for="file">Upload MoU Data (CSV):</label>
+        <input type="file" id="file" name="file" accept=".csv" required>
+        <button type="submit">Upload & Analyze</button>
+    </form>
+    {% if mou_graphs %}
+    <h3>MoU Analysis Results</h3>
+    {% for graph in mou_graphs %}
+    <div class="graph">
+        {{ graph | safe }}
+    </div>
+    {% endfor %}
+    {% endif %}
+</section>
+
+        <!-- Analyze Initiatives Section -->
+        <section>
+            <h2>Analyze Initiatives</h2>
+            <form method="POST" enctype="multipart/form-data">
+                <label for="file">Upload PDF or DOCX File:</label>
+                <input type="file" id="file" name="file" accept=".pdf, .docx" required>
+                <button type="submit" name="analyze_initiatives">Upload & Analyze</button>
+            </form>
+            {% if initiatives_text %}
+            <h3>Extracted Text</h3>
+            <pre>{{ initiatives_text }}</pre>
+            {% endif %}
+            {% if initiatives_insights %}
+            <h3>Generated Insights</h3>
+            {{ initiatives_insights | safe }}
+            {% endif %}
+        </section>
+        <!-- Add this section after your existing sections -->
+        <section>
+            <h2>TPO Assessment Questionnaire</h2>
+            <form method="POST" class="questionnaire-form">
+                <!-- General Information -->
+                <div class="question-group">
+                    <h3>General Information</h3>
+                    
+                    <label for="q1.1">What is the current structure of the TPO team?</label>
+                    <textarea id="q1.1" name="q1.1" required></textarea>
+                    
+                    <label for="q1.2">What are the primary goals and objectives of the TPO?</label>
+                    <textarea id="q1.2" name="q1.2" required></textarea>
+                    
+                    <label for="q1.3">Which tools or software do you currently use?</label>
+                    <textarea id="q1.3" name="q1.3" required></textarea>
+                </div>
+
+                <div class="question-group">
+                    <h3>Student Engagement</h3>
+                    
+                    <label>Do you have a system to communicate placement opportunities?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="q2.1-yes" name="q2.1" value="Yes" required>
+                        <label for="q2.1-yes">Yes</label>
+                        <input type="radio" id="q2.1-no" name="q2.1" value="No">
+                        <label for="q2.1-no">No</label>
+                    </div>
+                    
+                    <label for="q2.2">How do you collect student data for placements?</label>
+                    <textarea id="q2.2" name="q2.2" required></textarea>
+
+                    <label>Do you conduct regular feedback sessions with students?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="q2.3-yes" name="q2.3" value="Yes" required>
+                        <label for="q2.3-yes">Yes</label>
+                        <input type="radio" id="q2.3-no" name="q2.3" value="No">
+                        <label for="q2.3-no">No</label>
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <h3>Employer Engagement</h3>
+                    
+                    <label>Do you have a strategy for identifying potential recruiters?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="q3.1-yes" name="q3.1" value="Yes" required>
+                        <label for="q3.1-yes">Yes</label>
+                        <input type="radio" id="q3.1-no" name="q3.1" value="No">
+                        <label for="q3.1-no">No</label>
+                    </div>
+
+                    <label for="q3.2">What is your process for onboarding new companies?</label>
+                    <textarea id="q3.2" name="q3.2" required></textarea>
+
+                    <label>Do you have a standard agreement template for companies?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="q3.3-yes" name="q3.3" value="Yes" required>
+                        <label for="q3.3-yes">Yes</label>
+                        <input type="radio" id="q3.3-no" name="q3.3" value="No">
+                        <label for="q3.3-no">No</label>
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <h3>Placement and Training Programs</h3>
+                    
+                    <label>Do you conduct training programs for students?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="q4.1-yes" name="q4.1" value="Yes" required>
+                        <label for="q4.1-yes">Yes</label>
+                        <input type="radio" id="q4.1-no" name="q4.1" value="No">
+                        <label for="q4.1-no">No</label>
+                    </div>
+
+                    <label for="q4.2">What kind of training programs do you conduct?</label>
+                    <textarea id="q4.2" name="q4.2" required></textarea>
+
+                    <label for="q4.3">How do you measure training effectiveness?</label>
+                    <textarea id="q4.3" name="q4.3" required></textarea>
+
+                    <label for="q4.4">What is your placement success rate (%) for the past three years?</label>
+                    <input type="number" id="q4.4" name="q4.4" min="0" max="100" required>
+                </div>
+
+                <div class="question-group">
+                    <h3>Data Management</h3>
+                    
+                    <label>Do you maintain records of placements and internships?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="q5.1-yes" name="q5.1" value="Yes" required>
+                        <label for="q5.1-yes">Yes</label>
+                        <input type="radio" id="q5.1-no" name="q5.1" value="No">
+                        <label for="q5.1-no">No</label>
+                    </div>
+
+                    <label>Do you analyze placement trends?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="q5.2-yes" name="q5.2" value="Yes" required>
+                        <label for="q5.2-yes">Yes</label>
+                        <input type="radio" id="q5.2-no" name="q5.2" value="No">
+                        <label for="q5.2-no">No</label>
+                    </div>
+
+                    <label for="q5.3">How do you ensure data privacy and security?</label>
+                    <textarea id="q5.3" name="q5.3" required></textarea>
+                </div>
+
+                <div class="question-group">
+                    <h3>Challenges and Future Plans</h3>
+                    
+                    <label for="q6.1">What are the biggest challenges in managing placements?</label>
+                    <textarea id="q6.1" name="q6.1" required></textarea>
+
+                    <label>Do you plan to adopt new technologies?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="q6.2-yes" name="q6.2" value="Yes" required>
+                        <label for="q6.2-yes">Yes</label>
+                        <input type="radio" id="q6.2-no" name="q6.2" value="No">
+                        <label for="q6.2-no">No</label>
+                    </div>
+
+                    <label for="q6.3">What improvements do you envision for the next five years?</label>
+                    <textarea id="q6.3" name="q6.3" required></textarea>
+                </div>
+
+                <div class="question-group">
+                    <h3>Feedback System</h3>
+                    
+                    <label>How often do you take feedback from companies?</label>
+                    <select name="q7.1" required>
+                        <option value="">Select frequency</option>
+                        <option value="Never">Never</option>
+                        <option value="Rarely">Rarely</option>
+                        <option value="Occasionally">Occasionally</option>
+                        <option value="Frequently">Frequently</option>
+                    </select>
+
+                    <label for="q7.2">What kind of feedback do you receive from students?</label>
+                    <textarea id="q7.2" name="q7.2" required></textarea>
+
+                    <label>Do you act on stakeholder feedback?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="q7.3-yes" name="q7.3" value="Yes" required>
+                        <label for="q7.3-yes">Yes</label>
+                        <input type="radio" id="q7.3-no" name="q7.3" value="No">
+                        <label for="q7.3-no">No</label>
+                    </div>
+                </div>
+
+                <button type="submit" name="submit_questionnaire">Submit Assessment</button>
+            </form>
+
+            {% if questionnaire_grade %}
+            <div class="results">
+                <h3>Assessment Results</h3>
+                <p><strong>Questionnaire Grade:</strong> {{ questionnaire_grade }}</p>
+                {% if final_grade %}
+                <p><strong>Final Combined Grade:</strong> {{ final_grade }}</p>
+                {% endif %}
+            </div>
+            {% endif %}
+        </section>
+        <!-- Add this section after the questionnaire section -->
+<section class="swot-section">
+    <h2>SWOT Analysis</h2>
+    {% if swot_analysis %}
+    <div class="swot-container">
+        <div class="swot-grid">
+            <!-- Strengths -->
+            <div class="swot-card strengths">
+                <h3><i class="fas fa-fist-raised"></i> Strengths</h3>
+                <div class="swot-list">
+                    {% for strength in swot_analysis.strengths %}
+                    <div class="swot-item">
+                        <i class="fas {{ strength.icon }}"></i>
+                        <h4>{{ strength.point }}</h4>
+                        <p>{{ strength.description }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- Weaknesses -->
+            <div class="swot-card weaknesses">
+                <h3><i class="fas fa-exclamation-triangle"></i> Weaknesses</h3>
+                <div class="swot-list">
+                    {% for weakness in swot_analysis.weaknesses %}
+                    <div class="swot-item">
+                        <i class="fas {{ weakness.icon }}"></i>
+                        <h4>{{ weakness.point }}</h4>
+                        <p>{{ weakness.description }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- Opportunities -->
+            <div class="swot-card opportunities">
+                <h3><i class="fas fa-lightbulb"></i> Opportunities</h3>
+                <div class="swot-list">
+                    {% for opportunity in swot_analysis.opportunities %}
+                    <div class="swot-item">
+                        <i class="fas {{ opportunity.icon }}"></i>
+                        <h4>{{ opportunity.point }}</h4>
+                        <p>{{ opportunity.description }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- Threats -->
+            <div class="swot-card threats">
+                <h3><i class="fas fa-shield-alt"></i> Threats</h3>
+                <div class="swot-list">
+                    {% for threat in swot_analysis.threats %}
+                    <div class="swot-item">
+                        <i class="fas {{ threat.icon }}"></i>
+                        <h4>{{ threat.point }}</h4>
+                        <p>{{ threat.description }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <p class="no-data">Submit the questionnaire to generate SWOT analysis.</p>
+    {% endif %}
+</section>
+        <!-- Grades Section -->
+<section>
+    <h2>Grades Overview</h2>
+    {% if overall_average_grade %}
+    <p><strong>Overall Average Grade:</strong> {{ overall_average_grade }}</p>
+    {% endif %}
+    {% if department_grades %}
+    <h3>Department-wise Grades:</h3>
+    <ul>
+        {% for department, grade in department_grades.items() %}
+        <li><strong>{{ department }}:</strong> {{ grade }}</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No grades available to display.</p>
+    {% endif %}
+</section>
+
+<button onclick="printPage()">Download PDF</button>
+
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Analysis Platform</p>
+    </footer>
+ <script>
+      // Function for the print button
+    function printPage() {
+        window.print();
+    }
+
+    // Detect Ctrl + P or Cmd + P
+    document.addEventListener('keydown', function(event) {
+        if ((event.ctrlKey || event.metaKey) && event.key === 'p') {
+            event.preventDefault(); // Prevent the default behavior
+            window.print(); // Trigger the print dialog
+        }
+    });
+        // Function for the print button
+        function printPage() {
+            window.print();
+        }
+
+        // Detect Ctrl + P or Cmd + P
+        document.addEventListener('keydown', function(event) {
+            if ((event.ctrlKey || event.metaKey) && event.key === 'p') {
+                event.preventDefault(); // Prevent the default behavior
+                window.print(); // Trigger the print dialog
+            }
+        });
+    </script>
+</body>
+</html>
